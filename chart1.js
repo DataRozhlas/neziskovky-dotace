@@ -4,7 +4,7 @@ Highcharts.setOptions({
     }
 });
 
-Highcharts.chart('container', {
+Highcharts.chart('graf1', {
     chart: {
         type: 'bar'
     },
