@@ -10,9 +10,12 @@ Highcharts.chart('graf3', {
      categories: ['']
     },
     yAxis: {
+        labels: {
+          format: '{value} %'
+        },
         min: 0,
         title: {
-            text: 'procenta'
+            enabled: false
         },
         reversedStacks: false
     },
@@ -95,6 +98,10 @@ Highcharts.chart('graf3', {
         {
             name:'Požární ochrana a IZS',
             data:[21041000]
+        },
+        {
+            name: 'Právní ochrana',
+            data:[13814000]
         }
 
 

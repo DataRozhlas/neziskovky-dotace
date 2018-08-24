@@ -1,7 +1,8 @@
 Highcharts.setOptions({
     lang: {
         numericSymbols: [' tis.', ' mil.']
-    }
+    },
+    colors: ['#a6cee3','#1f78b4','#b2df8a','#33a02c','#fb9a99','#fdbf6f','#e31a1c','#ff7f00','#cab2d6','#6a3d9a','#ffff99','#b15928']
 });
 
 Highcharts.chart('graf1', {
